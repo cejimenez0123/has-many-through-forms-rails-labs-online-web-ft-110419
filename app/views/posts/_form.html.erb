@@ -1,1 +1,13 @@
+  
+<%= form_for post do |f| %>
 
+    <div class="field">
+        <%= f.label "Title" %>
+        <%= f.text_field :title %>    
+    </div>
+
+    <div class="field">
+        <%= f.label "Content" %>
+        <%= f.text_area :content %>
+    </div>
+<%end%>
